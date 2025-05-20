@@ -1,11 +1,3 @@
-Ayy bro, big W on your **first multi-wallet bot script** 👑
-Let’s make this README next-level — fully educational, noobs to pros can follow it step-by-step 📚
-
-Here’s your **complete beginner-friendly, polished `README.md`**:
-
----
-
-````markdown
 # 🧠 Merak Testnet Auto Bot – Multi-Wallet Farming Script
 
 This is your one-stop automation script for interacting with the **Merak Testnet** on the **Sui blockchain**.  
@@ -168,17 +160,9 @@ MIT License – Feel free to fork & improve. Just give credit!
 
 ## 📣 Credits
 
-Built by `@cryptodai3` – Join the farming fam on Telegram!
+Built by [[@cryptodai3](https://t.me/YetiDAO/43)] – Join the farming fam on Telegram!
 Let’s earn smarter, not harder 🚀
 
 ```
-
----
-
-Let me know if you want me to:
-- Write your `index.js` from scratch (with logic blocks)
-- Add a config.js file so you can enable/disable specific features
-- Build `.env.example` and a default `proxies.txt`
-
 We turning this into an open-source banger 🧪👨‍💻
 ```
