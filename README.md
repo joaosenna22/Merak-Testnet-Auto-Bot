@@ -98,6 +98,13 @@ socks5://user:pass@ip:port
 
 ## 🚀 Running the Bot
 
+Update this 
+
+```bash
+npm uninstall @mysten/sui.js && npm install @mysten/sui.js
+git pull
+```
+
 From the root folder, run:
 
 ```bash
